@@ -1,41 +1,21 @@
-# AiSdkExample
+# Example Angular App for HahnPRO AI SDK
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.6.
+https://github.com/user-attachments/assets/a2e1bff7-31b6-4eb7-9b61-c5799b67a462
 
-## Development server
-
-To start a local development server, run:
+## Install dependencies
 
 ```bash
-ng serve
+pnpm install
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Setup
 
-## Code scaffolding
+In AppComponent set client ID and client secret from your m2m service account.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Set the asset name / ID / external key for the dialog data 
+
+## Serve Example App
 
 ```bash
-ng generate component component-name
+pnpm start
 ```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
