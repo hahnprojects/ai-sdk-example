@@ -1,5 +1,6 @@
-@use './styles/hpc';
-@use './styles/main';
+@use '@angular/material' as mat;
+
+@include mat.core();
 
 app-root {
   display: flex;
